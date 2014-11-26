@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoAlbum</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Albums">Albums</string>
+    <string name="rename">Rename</string>
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_create_album">CreateAlbum</string>
+    <string name="open">Open</string>
+    <string name="title_activity_opened_album">OpenedAlbum</string>
+    <string name="title_activity_display_photo">DisplayPhoto</string>
+    <string name="title_activity_rename_album">RenameAlbum</string>
+    <string name="title_activity_search_photos">SearchPhotos</string>
+
+</resources>

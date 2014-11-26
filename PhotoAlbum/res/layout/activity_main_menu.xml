@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ListView
+        android:id="@+id/album_list"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:choiceMode="singleChoice"
+         />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/album_list"
+        android:onClick="delete"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/rename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      	android:layout_below="@id/delete"
+        android:onClick="rename"
+        android:text="@string/rename" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="create"
+         android:layout_below="@id/rename"
+        android:text="@string/create" />
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create"
+        android:onClick="search"
+        android:text="Search" />
+
+</RelativeLayout>
